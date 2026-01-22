@@ -52,7 +52,7 @@
 
         <!-- Layout de contenido + sidebar -->
          <section aria-labelledby="titulo-resumen">
-            <header>
+            <header class="container">
                 <h2 id="titulo-resumen">Resumen rápido</h2>
                 <p>
                     Una estructura típica para aplicar grid:
@@ -62,10 +62,11 @@
                 </p>
             </header>
 
-            <div>
+            <div class="container">
+                <div class="row">
                 <!-- Columna principal -->
-                 <article aria-labelledby="titulo-historia">
-                    <h3 id="historia">Origen e historia</h3>
+                 <article class="col-12 col-md-8" aria-labelledby="titulo-historia">
+                    <h2 id="historia">Origen e historia</h2>
                     <p>
                         El dibujo tiene sus raíces en las primeras manifestaciones artísticas de la humanidad, 
                         como las pinturas rupestres. A lo largo de la historia, ha evolucionado a través de diversas 
@@ -78,7 +79,7 @@
                  </article>
 
                     <!-- Sidebar -->
-                     <aside aria-labelledby="titulo-ficha">
+                     <aside class="col-12 col-md-4" aria-labelledby="titulo-ficha">
                      <h3 id="titulo-ficha">Ficha técnica</h3>
                      <ul>
                         <li><strong>Tamaño:</strong>Mediano</li>
@@ -92,7 +93,8 @@
                         <p>El dibujo es una forma de expresión artística que ha 
                             sido utilizada por humanos desde tiempos antiguos.</p>
                      </section>
-                </aside>
+                   </aside>
+                </div>
             </div>
         </section>
 
