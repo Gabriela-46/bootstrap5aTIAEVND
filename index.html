@@ -10,12 +10,12 @@
 <body>
     <header>
         <a href="#contenido" aria-label="Ir al contenido principal"> ir al contenido principal</a>
-        <div>
+        <div class="container">
             <h1>El Arte del Dibujo ✍️(◔◡◔)</h1>
             <p>Un sitio educativo sobre el dibujo como forma de expresión artística</p>
         </div>
 
-        <nav aria-label="Navegación principal">
+        <nav class="container" aria-label="Navegación principal">
             <ul>
                 <li><a href="#inicio">Inicio</a></li>
                 <li><a href="#historia">Historia del Dibujo</a></li>
@@ -30,6 +30,7 @@
     <main id="contenido">
         <!-- sección Hero -->
         <section id="inicio" aria-labelledby="inicio-titulo">
+            <div class="container">
             <header>
             <h2 id="inicio-titulo">Bienvenidos al mundo del dibujo</h2>
             <p>El dibujo es una de las formas más antiguas de expresión artística. 
@@ -48,6 +49,7 @@
                 <a href="#caracteristicas">Ver características</a>
                 <a href="#galeria">Ver galería</a>
             </p>
+            </div>
         </section>
 
         <!-- Layout de contenido + sidebar -->
@@ -99,7 +101,8 @@
         </section>
 
         <!-- Caracteristicas -->
-         <section id="caracteristicas" aria-labelledby="titulo-caracteristicas"> </section>
+         <section id="caracteristicas" aria-labelledby="titulo-caracteristicas">
+            <div class="container">
             <header>
                 <h2 id="titulo-caracteristicas">
                     Tipos de dibujo y sus características
@@ -131,9 +134,12 @@
                     </p>
                 </article>
             </div>
+            </div>
+        </section>
 
         <!-- Galería -->
          <section id="galeria" aria-labelledby="titulo-galeria">
+            <div class="container">
             <header>
             <h2 id="titulo-galeria">Galería de imágenes</h2>
             </header>
@@ -141,16 +147,22 @@
                 <figure>
                     <img src="img/Dibujo_a_lapiz.png" alt="Dibujo a lápiz">
                     <figcaption>Dibujo a lápiz</figcaption>
+                </figure>
+                <figure>
                     <img src="img/imagen_01.jpg" alt="Dibujo a lápiz">
                     <figcaption>Dibujo a mano</figcaption>
+                </figure>
+                <figure>
                     <img src="img/imagen_02.jpg" alt="Dibujo a lápiz">
                     <figcaption>Dibujo digital</figcaption>
                 </figure>
+            </div>
             </div>
          </section>
 
          <!-- FAQ con details y summary-->
          <section id="faq" aria-labelledby="titulo-faq">
+            <div class="container">
              <header>
                 <h2 id="titulo-faq">
                     Preguntas Frecuentes
@@ -187,11 +199,12 @@
                     con diferentes técnicas y estilos puede ayudarte a desarrollar tus habilidades.
                 </p>
              </details>
-
+            </div>
          </section>
 
          <!-- Contacto -->
           <section id="contacto" aria-labelledby="titulo-contacto">
+            <div class="container">
             <header>
                 <h2 id="titulo-contacto">Contacto</h2>
                 <p>¿Interesado en el dibujo? ¡Contáctanos!</p>
@@ -231,6 +244,7 @@
                 </p>
                 </fieldset>
             </form>
+            </div>
           </section>
     </main>
     <!-- Pie de pagina -->
