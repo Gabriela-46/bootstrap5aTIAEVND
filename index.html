@@ -229,44 +229,46 @@
 
          <!-- Contacto -->
           <section id="contacto" aria-labelledby="titulo-contacto">
-            <div class="container">
-            <header>
+            <div class="container py-5">
+            <header class="mb-4">
                 <h2 id="titulo-contacto">Contacto</h2>
-                <p>¿Interesado en el dibujo? ¡Contáctanos!</p>
+                <p class="text-muted">¿Interesado en el dibujo? ¡Contáctanos!</p>
             </header>
 
             <form action="#" method="post">
                 <fieldset>
                     <legend>Escríbenos</legend>
 
-                <p>
-                    <label for="nombre">Nombre:</label>
+                    <div class="row g-3">
+                <div class="col-12 col-md-6">
+                    <label for="nombre" class="form-label">Nombre:</label>
                     <input type="text" id="nombre" name="nombre" required>
-                </p>
+                </div>
 
-                <p>
-                    <label for="email">Email:</label>
+                <div class="col-12 col-md-6">
+                    <label for="email" class="form-label">Email:</label>
                     <input type="email" id="email" name="email" required>
-                </p>
+                </div>
 
-                <p>
-                    <label for="tema">Tema:</label> <br>
-                    <select id="tema" name="tema">
+                <div class="col-12">
+                    <label for="tema" class="form-label">Tema:</label> <br>
+                    <select id="tema" name="tema" class="form-select">
                         <option value="adopcion">Informacón general</option>
                         <option value="cuidados">Dibujos</option>
                         <option value="otros">Materiales</option>
                     </select>
-                </p>
+                </div>
 
-                <p>
-                    <label for="mensaje">Mensaje:</label> <br>
-                    <textarea id="mensaje" name="mensaje" rows="10" cols="30" required></textarea>
-                </p>
+                <div class="col-12">
+                    <label for="mensaje" class="form-label">Mensaje:</label> <br>
+                    <textarea id="mensaje" name="mensaje" rows="10" class="form-control" required></textarea>
+                </div>
 
-                <p>
-                    <button type="submit">Enviar</button>
-                    <button type="reset">Limpiar</button>
-                </p>
+                <div class="col-12 col-md-6">
+                    <button type="submit" class="btn btn-primary me-2">Enviar</button>
+                    <button type="reset" class="btn btn-outline-secondary">Limpiar</button>
+                </div>
+                    </div>
                 </fieldset>
             </form>
             </div>
