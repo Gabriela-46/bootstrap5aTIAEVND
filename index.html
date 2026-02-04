@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Arte del Dibujo - sitio educativo</title>
     <meta name="description" content="Un sitio educativo sobre el dibujo como forma de expresión artística." />
     <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
     <header>
-        <a href="#contenido" aria-label="Ir al contenido principal"> ir al contenido principal</a>
-        <div class="container">
+        <a class="btn btn-light me-2 shadow-sm" href="#contenido" aria-label="Ir al contenido principal"> 
+            ir al contenido principal</a>
+        <div class="container text-center">
             <h1>El Arte del Dibujo ✍️(◔◡◔)</h1>
             <p>Un sitio educativo sobre el dibujo como forma de expresión artística</p>
         </div>
@@ -23,12 +25,12 @@
                 </button>
                 <div class="collapse navbar-collapse" id="menuPrincipal">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#historia">Historia del Dibujo</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#caracteristicas">Tipos de Dibujo</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#galeria">Galería</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                        <li class="nav-item"><a href="#inicio" class="btn btn-info me-2 shadow-sm">Inicio</a></li>
+                        <li class="nav-item"><a href="#historia" class="btn btn-info me-2 shadow-sm">Historia del Dibujo</a></li>
+                        <li class="nav-item"><a href="#caracteristicas" class="btn btn-info me-2 shadow-sm">Tipos de Dibujo</a></li>
+                        <li class="nav-item"><a href="#galeria" class="btn btn-info me-2 shadow-sm">Galería</a></li>
+                        <li class="nav-item"><a href="#faq" class="btn btn-info me-2 shadow-sm">FAQ</a></li>
+                        <li class="nav-item"><a href="#contacto" class="btn btn-info me-2 shadow-sm">Contacto</a></li>
                     </ul>
                 </div>
             </div>
@@ -121,7 +123,7 @@
 
             <div class="row g-3">
                 <article class="col-12 col-md-4">
-                    <div class="card h-100">
+                    <div class="card h-100 shadow-sm transition">
                         <div class="card-body">
                             <h3 class="card-title h5">Dibujo a lápiz</h3>
                             <p class="card-text">
@@ -132,7 +134,7 @@
                     </div>
                 </article>
                 <article class="col-12 col-md-4">
-                    <div class="card h-100">
+                    <div class="card h-100 shadow-sm transition">
                         <div class="card-body">
                             <h3 class="card-title h5">Dibujo digital</h3>
                             <p class="card-text">
@@ -144,7 +146,7 @@
                     </div>
                 </article>
                 <article class="col-12 col-md-4">
-                    <div class="card h-100">
+                    <div class="card h-100 shadow-sm transition">
                         <div class="card-body">
                             <h3 class="card-title h5">Dibujo con pinturas</h3>
                             <p class="card-text">
@@ -168,17 +170,17 @@
                 <div class="row g-3">
                     <figure class="clo-12 col-sm-6 col-md-4">
                         <img src="img/Dibujo_a_lapiz.png" alt="Dibujo a lápiz"
-                        class="img-fluid rounded">
+                        class="img-fluid rounded shadow-sm transition">
                         <figcaption class="mt-2 text-center">Dibujo a lápiz</figcaption>
                     </figure>
                     <figure class="clo-12 col-sm-6 col-md-4">
                         <img src="img/imagen_01.jpg" alt="Dibujo a lápiz"
-                        class="img-fluid rounded">
+                        class="img-fluid rounded shadow-sm transition">
                         <figcaption class="mt-2 text-center">Dibujo a mano</figcaption>
                     </figure>
                     <figure class="clo-12 col-sm-6 col-md-4">
                         <img src="img/imagen_02.jpg" alt="Dibujo a lápiz"
-                        class="img-fluid rounded">
+                        class="img-fluid rounded shadow-sm transition">
                         <figcaption class="mt-2 text-center">Dibujo digital</figcaption>
                     </figure>
                 </div>
@@ -194,7 +196,7 @@
                 </h2>
              </header>
 
-             <details class="border rounded p-3 mb-3">
+             <details class="border rounded p-3 mb-3 shadow-sm">
                 <summary class="fw-semibold">
                     ¿Qué tipo de dibujo se puede hacer?
                 </summary>
@@ -204,7 +206,7 @@
                 </p>
                 </details>
 
-            <details class="border rounded p-3 mb-3">
+            <details class="border rounded p-3 mb-3 shadow-sm">
                 <summary class="fw-semibold">
                     ¿Qué materiales son necesarios para empezar a dibujar?
                 </summary>
@@ -214,7 +216,7 @@
                 </p>
             </details>
 
-            <details class="border rounded p-3 mb-3">
+            <details class="border rounded p-3 mb-3 shadow-sm">
                 <summary class="fw-semibold">
                     ¿Cómo puedo mejorar mis habilidades de dibujo?
                 </summary>
